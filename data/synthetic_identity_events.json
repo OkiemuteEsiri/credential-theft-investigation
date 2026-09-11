@@ -1,0 +1,10 @@
+[
+  {"event_id":"evt-001","timestamp":"2026-09-10T09:00:00Z","event_type":"auth_failure","user":"alex@example.test","source_ip":"198.51.100.10","device":"WIN-SYN-01","outcome":"failure","risk":35},
+  {"event_id":"evt-002","timestamp":"2026-09-10T09:03:00Z","event_type":"auth_failure","user":"alex@example.test","source_ip":"198.51.100.10","device":"WIN-SYN-01","outcome":"failure","risk":40},
+  {"event_id":"evt-003","timestamp":"2026-09-10T09:06:00Z","event_type":"auth_failure","user":"alex@example.test","source_ip":"198.51.100.10","device":"WIN-SYN-01","outcome":"failure","risk":45},
+  {"event_id":"evt-004","timestamp":"2026-09-10T09:09:00Z","event_type":"mfa_change","user":"alex@example.test","source_ip":"198.51.100.10","device":"WIN-SYN-01","outcome":"success","risk":55},
+  {"event_id":"evt-005","timestamp":"2026-09-10T09:12:00Z","event_type":"auth_success","user":"alex@example.test","source_ip":"198.51.100.10","device":"NEW-SYN-02","outcome":"success","risk":70,"new_device":true,"impossible_travel":true},
+  {"event_id":"evt-006","timestamp":"2026-09-10T10:20:00Z","event_type":"credential_access_alert","user":"svc-admin@example.test","source_ip":"203.0.113.20","device":"SRV-SYN-01","outcome":"alert","risk":82,"privileged":true},
+  {"event_id":"evt-007","timestamp":"2026-09-10T11:15:00Z","event_type":"token_anomaly","user":"jordan@example.test","source_ip":"192.0.2.55","device":"MOBILE-SYN-01","outcome":"alert","risk":64},
+  {"event_id":"evt-008","timestamp":"2026-09-10T12:00:00Z","event_type":"auth_success","user":"normal@example.test","source_ip":"192.0.2.80","device":"LAPTOP-SYN-01","outcome":"success","risk":10}
+]
